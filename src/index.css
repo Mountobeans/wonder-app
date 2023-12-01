@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+/* 
+.App-header {
+  position:fixed;
+  margin-top:15px;
+} */
+
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: 'Roboto', 'Oxygen', 'Helvetica Neue', sans-serif;
+}
+
+.test-button-container {
+  display:flex;
+  justify-content: space-between;
+}
+
+.self-test-body {
+  margin: auto;
+  margin-top: 1rem;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.show{
+  color:rgb(227, 181, 96);
+}
+
+.word-background span{
+  border: 2px;
+  border-color:red;
+  width: 10px;
+  background-color: aliceblue;
+}
+
+.wild {
+  background-color: rgb(227, 181, 96);
+  margin: 4px;
+  border-radius:3px;
+  padding: 2px;
+}
+
+.def-class{
+  background-color:rgb(235, 82, 31); 
+  margin: 4px;
+}
+
+.sent-class{
+  background-color:rgb(140, 232, 201);
+  margin: 4px;
+  text-wrap: nowrap;
+}
+
+.word-class{
+  margin: 4px;
+}
+
+.test-list {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.word-block{
+  text-align: left;
+  order: reverse;
+  display: grid;
+  width:60%
+}
+
+
+.big-fat-button{
+   width:20%;
+ margin: auto;
+}
+
+.big-fat-button .rpt-btn{
+  background-color:rgb(140, 232, 201);
+  min-width: 100px;
+  min-height: 50px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  padding:.7rem
+}
+
+.test-sheet {
+  /* align-items:center; */
+  max-width: 70rem;
+  font-size: 20px;
+  padding: 1rem;
+  /* white-space: nowrap; */
+  justify-content: space-evenly;
+}
+
+.body {
+max-width: 100%;
+display:flex;
+}
+
+.body li{
+  height: 50px;
+  overflow:auto;
+  background-color:aquamarine;
+  margin: 5px 0;
+  }
+  
+ .choose-voice {
+  flex: 2;
+  color: #fff;
+  background: #403d84;
+  height: 50px;
+  padding: 0 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 35px;
+  background-repeat: no-repeat;
+  background-size:15px;
+  background-position-x: calc(100% - 20px);
+  background-position-y: 20px;
+ }
+  
+.hit-me-button {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 7px;
+  color: rgb(14, 11, 63);
+  background-color: rgb(67, 159, 59);
+}
